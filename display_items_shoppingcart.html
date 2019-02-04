@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Online Book Store</title>
+    <style type="text/css">
+
+        body{
+            background-color: white;
+            background-repeat: no-repeat;
+
+        }
+
+        img.first{
+            align-items: left;
+            border: 20px;
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+        .button
+        {
+            font: 20px bold;
+            font-weight: bold;
+            font-family: sans-serif;
+            background-color: whitesmoke;
+            text-shadow: 2px 2px lightgray;
+            box-shadow: 6px 5px 6px darkgray;
+            border: 5px;
+            color: black;
+            border: 3px solid black;
+            border-radius: 5px;
+            border-color: black;
+            padding: 15px 32px 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius: 5px;
+            display: inline-block;
+            font-size: 16px;
+            float: right;
+        }
+
+        a:hover{
+            color: lightgray;
+            font-weight: bold;
+            background-color: dimgrey;
+            text-shadow: none;
+        }
+
+        a:active{
+            color: saddlebrown;
+            font-weight: bold;
+            background-color: black;
+            text-shadow: none;
+        }
+
+        .header_1
+        {
+            margin: 1em 0 0.5em 0;
+            color: #343434;
+            font-weight: normal;
+            font-family: 'Ultra', sans-serif;
+            font-size: 36px;
+            line-height: 42px;
+            text-transform: uppercase;
+            text-shadow: 0 2px white, 0 3px #777;
+        }
+
+        .header_2
+        {
+            font-family: fantasy;
+            font-weight: bold;
+            size: 10px;
+            font-size: 30px;
+            line-height: 40px;
+            color: darkorange;
+            text-shadow: 2px 3px dimgrey;
+            -webkit-text-stroke: 1px black;
+        }
+
+
+     </style>
+</head>
+<body>
+    <div style="background-color: darkgrey">
+
+        <a class="button" href=""> Contact us </a>
+        <a class="button" href=""> About us </a>
+        <a class="button" href=""> sign up </a>
+        <a class="button" href=""> Log in </a>
+        <a class="button" href=""> Home </a>
+
+        <div>
+            <img class="first" src="Online%20book%20Store%20logo.png" width="230px" height="180px" border="20" align="left">
+        </div>
+
+        <div>
+            <form action="">
+                <input type="text" placeholder="search..." name="search">
+                <button type="submit" value="search" ><img src="search-icon.png" height="20px" width="20px"> </button>
+            </form>
+        </div>
+        <br/><br/><br/><br/><br/>
+
+        <h1 align="center" class="header_1"> <b>Online Book Store </b></h1>
+
+    </div>
+
+    <hr/>
+    <div >
+        <img src="shopping_cart.png" height="150px"  width="180px" align="left">
+        <h1 class="header_2"> Shopping Cart </h1>
+    </div>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+
+    <div align="center">
+        <table>
+            <tr>
+                <td>
+                    <a href="fetch_Data.php" >--> Display existing products in the shopping cart </a> <br/> <br/> <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="" >--> Add new products to the shopping cart </a> <br/> <br/> <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="calc_Total.php" >--> Calculate the Total Amount to pay currently in the shopping cart. </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>
